@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "AbpMauiBlazor.Domain.Shared": {
+      "path": "src/AbpMauiBlazor.Domain.Shared/AbpMauiBlazor.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "AbpMauiBlazor.Domain": {
+      "path": "src/AbpMauiBlazor.Domain/AbpMauiBlazor.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "AbpMauiBlazor.Application.Contracts": {
+      "path": "src/AbpMauiBlazor.Application.Contracts/AbpMauiBlazor.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "AbpMauiBlazor.Application": {
+      "path": "src/AbpMauiBlazor.Application/AbpMauiBlazor.Application.abppkg.json",
+      "folder": "src"
+    },
+    "AbpMauiBlazor.EntityFrameworkCore": {
+      "path": "src/AbpMauiBlazor.EntityFrameworkCore/AbpMauiBlazor.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "AbpMauiBlazor.MongoDB": {
+      "path": "src/AbpMauiBlazor.MongoDB/AbpMauiBlazor.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "AbpMauiBlazor.HttpApi": {
+      "path": "src/AbpMauiBlazor.HttpApi/AbpMauiBlazor.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "AbpMauiBlazor.HttpApi.Client": {
+      "path": "src/AbpMauiBlazor.HttpApi.Client/AbpMauiBlazor.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "AbpMauiBlazor.TestBase": {
+      "path": "test/AbpMauiBlazor.TestBase/AbpMauiBlazor.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "AbpMauiBlazor.EntityFrameworkCore.Tests": {
+      "path": "test/AbpMauiBlazor.EntityFrameworkCore.Tests/AbpMauiBlazor.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AbpMauiBlazor.MongoDB.Tests": {
+      "path": "test/AbpMauiBlazor.MongoDB.Tests/AbpMauiBlazor.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AbpMauiBlazor.Domain.Tests": {
+      "path": "test/AbpMauiBlazor.Domain.Tests/AbpMauiBlazor.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AbpMauiBlazor.Application.Tests": {
+      "path": "test/AbpMauiBlazor.Application.Tests/AbpMauiBlazor.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AbpMauiBlazor.HttpApi.Host": {
+      "path": "host/AbpMauiBlazor.HttpApi.Host/AbpMauiBlazor.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "AbpMauiBlazor.Web": {
+      "path": "src/AbpMauiBlazor.Web/AbpMauiBlazor.Web.abppkg.json",
+      "folder": "src"
+    },
+    "AbpMauiBlazor.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AbpMauiBlazor.HttpApi.Client.ConsoleTestApp/AbpMauiBlazor.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "AbpMauiBlazor.Web.Host": {
+      "path": "host/AbpMauiBlazor.Web.Host/AbpMauiBlazor.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "AbpMauiBlazor.AuthServer": {
+      "path": "host/AbpMauiBlazor.AuthServer/AbpMauiBlazor.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "AbpMauiBlazor.Host.Shared": {
+      "path": "host/AbpMauiBlazor.Host.Shared/AbpMauiBlazor.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "AbpMauiBlazor.Web.Unified": {
+      "path": "host/AbpMauiBlazor.Web.Unified/AbpMauiBlazor.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "AbpMauiBlazor.Blazor": {
+      "path": "src/AbpMauiBlazor.Blazor/AbpMauiBlazor.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "AbpMauiBlazor.Blazor.Host": {
+      "path": "host/AbpMauiBlazor.Blazor.Host/AbpMauiBlazor.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "AbpMauiBlazor.Blazor.Server": {
+      "path": "src/AbpMauiBlazor.Blazor.Server/AbpMauiBlazor.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "AbpMauiBlazor.Blazor.WebAssembly": {
+      "path": "src/AbpMauiBlazor.Blazor.WebAssembly/AbpMauiBlazor.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "AbpMauiBlazor.Blazor.Server.Host": {
+      "path": "host/AbpMauiBlazor.Blazor.Server.Host/AbpMauiBlazor.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

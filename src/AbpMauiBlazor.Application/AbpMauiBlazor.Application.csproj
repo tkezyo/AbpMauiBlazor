@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbpMauiBlazor</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="7.1.1" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="7.1.1" />
+    <ProjectReference Include="..\AbpMauiBlazor.Application.Contracts\AbpMauiBlazor.Application.Contracts.csproj" />
+    <ProjectReference Include="..\AbpMauiBlazor.Domain\AbpMauiBlazor.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
