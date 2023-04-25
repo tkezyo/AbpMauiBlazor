@@ -168,6 +168,39 @@ public class OpenIddictDataSeedContributor : IDataSeedContributor, ITransientDep
                 redirectUri: $"{swaggerRootUrl}/swagger/oauth2-redirect.html"
             );
         }
+
+        // MauiBookStore Section
+        var mauiScopes = new List<string>
+        {
+            "offline_access",
+            OpenIddictConstants.Permissions.Scopes.Address,
+            OpenIddictConstants.Permissions.Scopes.Email,
+            OpenIddictConstants.Permissions.Scopes.Phone,
+            OpenIddictConstants.Permissions.Scopes.Profile,
+            OpenIddictConstants.Permissions.Scopes.Roles,
+            "AbpMauiBlazor"
+        };
+
+        var mauiClientId = configurationSection["AbpMauiBlazor_Maui:ClientId"];
+        if (!mauiClientId.IsNullOrWhiteSpace())
+        {
+            var mauiRootUrl = configurationSection["AbpMauiBlazor_Maui:RootUrl"];
+            await CreateApplicationAsync(
+                name: mauiClientId,
+                type: OpenIddictConstants.ClientTypes.Confidential,
+                consentType: OpenIddictConstants.ConsentTypes.Implicit,
+                scopes: mauiScopes,
+                grantTypes: new List<string>
+                {
+                    OpenIddictConstants.GrantTypes.AuthorizationCode,
+                    OpenIddictConstants.GrantTypes.RefreshToken
+                },
+                secret: configurationSection["AbpMauiBlazor_Maui:ClientSecret"],
+                redirectUri: $"{mauiRootUrl}",
+                postLogoutRedirectUri: $"{mauiRootUrl}",
+                displayName: "AbpMauiBlazor"
+            );
+        }
     }
 
     private async Task CreateApplicationAsync(
